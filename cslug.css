@@ -30,6 +30,11 @@ body {
     display:block;
 }
 
+#pic {
+    background: rgba(255, 0, 0, 0.4);
+    width:20%;
+    height:20%;
+}
 
     
     
