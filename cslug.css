@@ -32,7 +32,6 @@ body {
 }
 
  .zoom {
-        width: 600px;
         height: auto;
         transition-duration: 1s;
         transition-timing-function: ease;
