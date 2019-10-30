@@ -1,9 +1,3 @@
-html {
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: top center;
-    background-attachment: fixed;
-    }
 body {
     background: linear-gradient(#121112, #b0a4b0, #4c2261);
     margin:0%;
@@ -21,7 +15,9 @@ body {
     font-family: 'Helvetica Neue', 'Segoe UI Light', sans-serif;
     color:white;
     text-align:center; 
-    margin:center;
+    margin-left:auto;
+    margin-right:auto;
+    disply:block;
 }
 
 
