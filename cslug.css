@@ -21,12 +21,11 @@ body {
 
 #events, #news, #opportunities {
     width:60%;
-    height:20%;
-    background-color: #fff;
+    background-color: #aaa;
     font-family: 'Helvetica Neue', 'Segoe UI Light', sans-serif;
     color:black;
     text-align:center;
-    margin-left:auto;
+    margin-right:auto;
     display:block;
 }
 
