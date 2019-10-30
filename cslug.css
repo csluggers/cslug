@@ -5,7 +5,6 @@ body {
     border:solid black 2px;
     font-family: 'Helvetica Neue', 'Segoe UI Light', sans-serif;
     text-align:center;
-    color:white;
     } 
 
 #divblock{
@@ -23,7 +22,7 @@ body {
 #events, #news, #opportunities {
     width:80%;
     height:20%;
-    background-color: #fff;
+    background-color: #000;
     font-family: 'Helvetica Neue', 'Segoe UI Light', sans-serif;
     color:white;
     text-align:center;
