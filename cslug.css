@@ -31,9 +31,15 @@ body {
     display:block;
 }
 
-#pic {
-    opacity: 0.5;
-}
+ .zoom {
+        width: 600px;
+        height: auto;
+        transition-duration: 1s;
+        transition-timing-function: ease;
+      }
+      .zoom:hover {
+        transform: scale(1.2);
+      }
 
     
     
