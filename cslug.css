@@ -25,7 +25,9 @@ body {
     font-family: 'Helvetica Neue', 'Segoe UI Light', sans-serif;
     color:black;
     text-align:center;
-    margin:left;
+    margin-left:auto;
+    margin-right:auto;
+    float:left;
     display:block;
 }
 
