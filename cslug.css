@@ -35,11 +35,15 @@ body {
         height: auto;
         transition-duration: 1s;
         transition-timing-function: ease;
+        -webkit-transition-duration: 1s;
+        -webkit-transition-timing-function: ease;
       }
       .zoom:hover {
         transform: scale(1.2);
+        -webkit-transform: scale(1.2);
       }
-
+ 
+ 
     
     
 
