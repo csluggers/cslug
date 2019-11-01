@@ -42,6 +42,17 @@ body {
   right: 0;
   top: 0;
 }
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+
+  position:relative;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+
+}
+
 
 
 #divblock{
