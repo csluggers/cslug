@@ -42,11 +42,6 @@ body {
   right: 0;
   top: 0;
 }
-/* Style the active link (or home/logo) */
-.active {
-  background-color: #4CAF50;
-  color: white;
-}
 
 
 #divblock{
