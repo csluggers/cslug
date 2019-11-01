@@ -8,6 +8,7 @@ body {
     } 
 #logo {
     float:left;
+    position:relative;
     
 }
 /* Style the navigation menu */
