@@ -6,6 +6,10 @@ body {
     font-family: 'Helvetica Neue', 'Segoe UI Light', sans-serif;
     text-align:center;
     } 
+#logo {
+    float:left;
+    
+}
 /* Style the navigation menu */
 .topnav {
   overflow: hidden;
