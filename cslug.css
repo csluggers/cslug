@@ -22,7 +22,8 @@ body {
     margin-left:10px;
     margin-right:10px;
     margin:auto;
-    position: relative;
+    
+    display:block;
   
 }
 
