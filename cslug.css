@@ -25,10 +25,13 @@
 .topnav {
   overflow: hidden;
   background-color: #333;
-    margin:auto;
+    margin:10px;
+    float:right;
     position:relative;
     display:inline;
     z-index:1;
+    text-align:center;
+    
    
   
 }
@@ -41,9 +44,10 @@
 /* Style navigation menu links */
 .topnav a {
   color: white;
-  padding:2%;
+  padding:5%;
   text-decoration:;
   font-size: 20px;
+    text-align:center;
 
  
 }
