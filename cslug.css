@@ -18,6 +18,7 @@ body {
   overflow: hidden;
   background-color: #333;
   float:right;
+    padding :20px;
 }
 
 /* Hide the links inside the navigation menu (except for logo/home) */
