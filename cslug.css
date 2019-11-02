@@ -8,7 +8,8 @@ body {
     } 
 #logo {
     float:left;
-    position:absolute;
+    position:relative;
+    display: block;
   
     
 }
