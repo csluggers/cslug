@@ -16,7 +16,7 @@
     margin-right:10px;
     margin:auto;
     display:inline;
-    position:absolute;
+    position:relative;
     z-index:99;
 }
 #title {
@@ -33,7 +33,7 @@
     margin-left:10px;
     margin-right:10px;
     margin:auto;
-    position:absolute;
+    position:relative;
     display:inline;
     z-index:100;
   
