@@ -41,8 +41,7 @@ body {
   background: black;
   display: block;
   position: relative;
-  right: 0;
-  top: 0;
+    float:right;
   
 }
 /* Add a grey background color on mouse-over */
