@@ -12,13 +12,11 @@
     } 
 #logo {   
     float:left;
-    margin-left:10px;
-    margin-right:10px;
     margin:auto;
     display:inline;
     position:relative;
-    border: 2px solid black;
-    border-radius: 20px;
+    border: 1px solid black;
+    border-radius: 25px;
 }
 #title {
     text-align:center;
@@ -27,11 +25,6 @@
 .topnav {
   overflow: hidden;
   background-color: #333;
-  float:right;
-  padding :10px;
-    border:2px;
-    border-color:#fff;
-
     margin:auto;
     position:relative;
     display:inline;
@@ -50,7 +43,7 @@
   padding:2%;
   text-decoration:;
   font-size: 20px;
-  display:inline;
+
  
 }
 
@@ -65,7 +58,7 @@
     margin-left:10px;
     margin-right:10px;
     margin:auto;
-    display:inline;
+ 
 }
 .topnav a:hover {
   background-color: #ddd;
