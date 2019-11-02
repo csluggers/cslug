@@ -25,7 +25,7 @@
 .topnav {
   overflow: hidden;
   background-color: #333;
-    margin:10px;
+    margin:20px;
     float:right;
     position:relative;
     display:inline;
@@ -46,7 +46,7 @@
 .topnav a {
   color: white;
   padding:5%;
-  text-decoration:underline overline wavy blue;
+  text-decoration: overline wavy green;
   font-size: 20px;
     text-align:center;
 
