@@ -8,6 +8,7 @@ body {
     display: inline-block;   
     float:left;
     margin-left:10px;
+    margin-right:10px;
     margin:auto;
 }
 /* Style the navigation menu */
@@ -15,7 +16,12 @@ body {
   overflow: hidden;
   background-color: #333;
   float:right;
-  padding :20px;
+  padding :10px;
+    border:2px;
+    border-color:white;
+    margin-left:10px;
+    margin-right:10px;
+    margin:auto;
   
 }
 
