@@ -11,6 +11,9 @@ body {
     margin:auto;
     display:block;
 }
+#title {
+    display:block;
+}
 /* Style the navigation menu */
 .topnav {
   overflow: hidden;
