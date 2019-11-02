@@ -7,7 +7,8 @@ body {
 #logo {
     display: inline-block;   
     float:left;
-    margin:10px;
+    margin-left:10px;
+    margin:auto;
 }
 /* Style the navigation menu */
 .topnav {
