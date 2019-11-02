@@ -17,8 +17,6 @@ body {
 .topnav {
   overflow: hidden;
   background-color: #333;
-  position: relative;
-  width:30%;
   float:right;
 }
 
