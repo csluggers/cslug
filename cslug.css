@@ -26,7 +26,7 @@
 /* Style navigation menu links */
 .topnav a {
   color: white;
-  text-decoration: none;
+  text-decoration: underline white;
   font-size: 14px;
     text-align:center;
     padding:6px;
