@@ -29,7 +29,7 @@
 
 /* Style navigation menu links */
 .topnav a {
-    float:right;
+    float:left;
   color: white;
   padding:14px 16px;
   text-decoration: none;
