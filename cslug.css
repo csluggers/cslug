@@ -9,7 +9,7 @@ body {
 #logo {
     float:left;
     position:absolute;
-    padding:10px;
+    padding:2px;
     
 }
 /* Style the navigation menu */
@@ -39,7 +39,7 @@ body {
 .topnav a.icon {
   background: black;
   display: block;
-  position: absolute;
+  position: relative;
   right: 0;
   top: 0;
   
