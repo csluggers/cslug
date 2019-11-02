@@ -54,7 +54,6 @@ body {
     margin-right:10px;
     margin:auto;
     display:block;
-    position:absolute;
 }
 .topnav a:hover {
   background-color: #ddd;
