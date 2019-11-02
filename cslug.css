@@ -55,6 +55,10 @@ body {
     display:block;
     position: absolute;
 }
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
 
 #events, #news, #opportunities {
     width:75%;
