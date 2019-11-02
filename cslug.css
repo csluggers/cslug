@@ -8,6 +8,8 @@ body {
     } 
 #logo {
     display: inline-block;   
+    float:left;
+    margin:10px;
 }
 /* Style the navigation menu */
 .topnav {
@@ -38,6 +40,7 @@ body {
   display: inline-block;
     top:0;
     right:0;
+    margin:10px;
   
   
 }
