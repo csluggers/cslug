@@ -45,7 +45,8 @@ body {
 /* Style the hamburger menu */
 .topnav a.icon {
   background: black;
-
+        top:0;
+        right:0;
       padding :10px;
     border:2px;
     border-color:white;
@@ -53,6 +54,7 @@ body {
     margin-right:10px;
     margin:auto;
     display:block;
+    position:absolute;
 }
 .topnav a:hover {
   background-color: #ddd;
