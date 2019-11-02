@@ -83,6 +83,8 @@
     margin: auto;
     display:block;
     opacity: 0.8;
+    position:relative;
+    z-index: -1;
    
     
 }
