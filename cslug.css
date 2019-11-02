@@ -17,8 +17,8 @@
     margin:auto;
     display:inline;
     position:relative;
-      border: 2px solid black;
-  border-radius: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
 }
 #title {
     text-align:center;
@@ -50,7 +50,7 @@
   padding:2%;
   text-decoration:;
   font-size: 20px;
-    display:inline;
+  display:inline;
  
 }
 
