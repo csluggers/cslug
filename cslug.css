@@ -15,10 +15,10 @@
     margin-left:10px;
     margin-right:10px;
     margin:auto;
-    display:block;
+    display:inline;
 }
 #title {
-    display:block;
+    text-align:center;
 }
 /* Style the navigation menu */
 .topnav {
@@ -32,7 +32,7 @@
     margin-right:10px;
     margin:auto;
     
-    display:block;
+    display:inline;
   
 }
 
