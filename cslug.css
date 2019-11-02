@@ -9,6 +9,7 @@ body {
 #logo {
     float:left;
     position:absolute;
+    padding:10px;
     
 }
 /* Style the navigation menu */
@@ -38,9 +39,10 @@ body {
 .topnav a.icon {
   background: black;
   display: block;
-  position: relative;
+  position: absolute;
   right: 0;
   top: 0;
+  
 }
 /* Add a grey background color on mouse-over */
 .topnav a:hover {
