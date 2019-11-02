@@ -8,7 +8,7 @@ body {
     } 
 #logo {
     float:left;
-    position:relative;
+    position:absolute;
     
 }
 /* Style the navigation menu */
@@ -68,7 +68,7 @@ body {
 }
 
 #events, #news, #opportunities {
-    width:60%;
+    width:75%;
     background-color: #aaa;
     font-family: 'Helvetica Neue', 'Segoe UI Light', sans-serif;
     color:black;
