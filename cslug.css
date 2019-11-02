@@ -17,6 +17,8 @@
     margin:auto;
     display:inline;
     position:relative;
+      border: 2px solid black;
+  border-radius: 20px;
 }
 #title {
     text-align:center;
@@ -29,8 +31,7 @@
   padding :10px;
     border:2px;
     border-color:#fff;
-    margin-left:20px;
-    margin-right:10px;
+
     margin:auto;
     position:relative;
     display:inline;
