@@ -1,4 +1,10 @@
-body{
+#index {
+    background: linear-gradient(#c31432, #240b36, #f7797d, #8E2DE2, #7F7FD5 #99f2c8;
+    border:dotted black 3px;
+    font-family: 'Helvetica Neue', 'Segoe UI Light', sans-serif;
+    text-align:center;
+    } 
+#events { 
     background: linear-gradient(#c31432, #240b36, #f7797d, #8E2DE2, #7F7FD5 #99f2c8;
     border:dotted black 3px;
     font-family: 'Helvetica Neue', 'Segoe UI Light', sans-serif;
