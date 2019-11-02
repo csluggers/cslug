@@ -11,8 +11,6 @@
     text-align:center;
     } 
 #logo {   
-    display:inline;
-    position:relative;
     border: 1px solid black;
     border-radius: 40px;
 }
@@ -29,7 +27,6 @@
 .topnav a {
     float:left;
   color: white;
-  padding:14px 16px;
   text-decoration: none;
   font-size: 17px;
     text-align:center;
