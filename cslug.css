@@ -7,11 +7,7 @@ body {
     text-align:center;
     } 
 #logo {
-    float:left;
-   
-    display: inline-block;
-  
-    
+    display: inline-block;   
 }
 /* Style the navigation menu */
 .topnav {
