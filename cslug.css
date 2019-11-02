@@ -9,6 +9,24 @@
     border:dotted black 3px;
     font-family: 'Helvetica Neue', 'Segoe UI Light', sans-serif;
     text-align:center;
+    }
+#news { 
+    background: linear-gradient(#00F260, #0575E6);
+    border:dotted black 3px;
+    font-family: 'Helvetica Neue', 'Segoe UI Light', sans-serif;
+    text-align:center;
+    } 
+#opportunities{ 
+    background: linear-gradient(##0f0c29, #302b63, #24243e);
+    border:dotted black 3px;
+    font-family: 'Helvetica Neue', 'Segoe UI Light', sans-serif;
+    text-align:center;
+    } 
+#contact { 
+    background: linear-gradient(#ef8e38, #108dc7);
+    border:dotted black 3px;
+    font-family: 'Helvetica Neue', 'Segoe UI Light', sans-serif;
+    text-align:center;
     } 
 #logo {   
     border: 1px solid black;
