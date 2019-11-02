@@ -9,7 +9,7 @@ body {
 #logo {
     float:left;
    
-    display: block;
+    display: inline-block;
   
     
 }
@@ -38,7 +38,7 @@ body {
 /* Style the hamburger menu */
 .topnav a.icon {
   background: black;
-  display: block;
+  display: inline-block;
     top:0;
     right:0;
   
