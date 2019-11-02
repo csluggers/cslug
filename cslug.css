@@ -8,7 +8,7 @@ body {
     } 
 #logo {
     float:left;
-    position:relative;
+   
     display: block;
   
     
@@ -40,7 +40,6 @@ body {
 .topnav a.icon {
   background: black;
   display: block;
-  position: relative;
     top:0;
     right:0;
   
