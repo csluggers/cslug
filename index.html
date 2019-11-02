@@ -20,6 +20,17 @@ function myFunction() {
   }
 }
 </script>
+	<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+
+
 	
 <div id="title">
 <a href="index.html">
@@ -89,8 +100,11 @@ C.) There will be games, trivia, swag, and prizes.
 Come out and Have fun!
 </p>
 <br>
-<a href="emccmap.jpg"> 
-<img src="emccmap.jpg" alt="EMCC Map" class="zoom" width="80%" height="60%"> 
+<a onclick="openNav()">&#9776; href="emccmap.jpg"> 
+<img onclick="openNav()">&#9776; src="emccmap.jpg" alt="EMCC Map" class="zoom" width="80%" height="60%"> 
+	<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	</div>
 </a>
 <br>
 <br>
