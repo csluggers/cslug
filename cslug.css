@@ -45,8 +45,7 @@ body {
 /* Style the hamburger menu */
 .topnav a.icon {
   background: black;
-    top:0;
-    right:0;
+
       padding :10px;
     border:2px;
     border-color:white;
@@ -54,6 +53,7 @@ body {
     margin-right:10px;
     margin:auto;
     display:block;
+    position: absolute;
 }
 
 #events, #news, #opportunities {
@@ -75,6 +75,6 @@ body {
         -webkit-transition-timing-function: ease;
       }
       .zoom:hover {
-        transform: scale(1.2);
-        -webkit-transform: scale(1.2);
+        transform: scale(1.1);
+        -webkit-transform: scale(1.1);
       }
