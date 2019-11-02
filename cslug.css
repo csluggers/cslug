@@ -9,6 +9,7 @@ body {
     margin-left:10px;
     margin-right:10px;
     margin:auto;
+    display:block;
 }
 /* Style the navigation menu */
 .topnav {
@@ -21,6 +22,7 @@ body {
     margin-left:10px;
     margin-right:10px;
     margin:auto;
+    display:block;
   
 }
 
@@ -35,6 +37,7 @@ body {
   padding:;
   text-decoration: none;
   font-size: 17px;
+    display:block;
  
 }
 
@@ -49,6 +52,7 @@ body {
     margin-left:10px;
     margin-right:10px;
     margin:auto;
+    display:block;
 }
 
 #divblock{
