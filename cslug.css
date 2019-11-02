@@ -45,7 +45,7 @@
 .topnav a {
   color: white;
   padding:5%;
-  text-decoration:;
+  text-decoration:underline overline wavy blue;
   font-size: 20px;
     text-align:center;
 
