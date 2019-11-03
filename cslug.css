@@ -9,7 +9,6 @@
     border:solid black 3px;
     font-family: 'Helvetica Neue', 'Segoe UI Light', sans-serif;
     text-align:center;
-    z-index:2;
     }
 #eventsback {
         background-image:url("term.PNG");
@@ -20,7 +19,6 @@
     right: 0;
     bottom: 0;
     left: 0;
-    z-index:1;
 }
     
     
