@@ -4,16 +4,19 @@
     border:solid black 3px;
     font-family: 'Helvetica Neue', 'Segoe UI Light', sans-serif;
     text-align:center;
-    
     } 
 #events { 
-    background-image:url("term.PNG");
-    background-attachment: fixed;
     border:solid black 3px;
     font-family: 'Helvetica Neue', 'Segoe UI Light', sans-serif;
     text-align:center;
-    opacity: 0.7;
     }
+#eventsback {
+        background-image:url("term.PNG");
+    background-attachment: fixed;
+    opacity: 0.7;
+}
+    
+    
 #news { 
    background-image:url("term.PNG");
     background-attachment: fixed;
