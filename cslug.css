@@ -31,6 +31,7 @@
 #logo {   
     border: 1px solid black;
     border-radius: 40px;
+    float:left;
 }
 #title {
     text-align:center;
