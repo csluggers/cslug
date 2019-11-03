@@ -6,20 +6,12 @@
     text-align:center;
     } 
 #events { 
+    background-image:url("term.PNG");
+    background-attachment: fixed;
     border:solid black 3px;
     font-family: 'Helvetica Neue', 'Segoe UI Light', sans-serif;
     text-align:center;
     }
-#eventsback {
-        background-image:url("term.PNG");
-    background-attachment: fixed;
-    opacity: 0.7;
-        position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-}
     
     
 #news { 
@@ -46,7 +38,7 @@
 #logo {   
     border: 1px solid black;
     border-radius: 175px;
-    z-index:1;
+   
 }
 #title {
     text-align:center;
@@ -66,7 +58,7 @@ th {
 .topnav {
     overflow:hidden;
   background-color: #333;
-    z-index:1;
+  
 }
 ul {
     padding:0;
