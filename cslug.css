@@ -1,12 +1,12 @@
 #index {
-    background-image:url("hack.jpg");
+    background-image:url("hack2.PNG");
     background-attachment: fixed;
     border:solid black 3px;
     font-family: 'Helvetica Neue', 'Segoe UI Light', sans-serif;
     text-align:center;
     } 
 #events { 
-    background-image:url("hack.jpg");
+    background-image:url("hack2.PNG");
     background-attachment: fixed;
     border:solid black 3px;
     font-family: 'Helvetica Neue', 'Segoe UI Light', sans-serif;
@@ -15,21 +15,21 @@
     
     
 #news { 
-   background-image:url("hack.jpg");
+   background-image:url("hack2.PNG");
     background-attachment: fixed;
     border:solid black 3px;
     font-family: 'Helvetica Neue', 'Segoe UI Light', sans-serif;
     text-align:center;
     } 
 #opportunities{ 
-   background-image:url("hack.jpg");
+   background-image:url("hack2.PNG");
     background-attachment: fixed;
     border:solid black 3px;
     font-family: 'Helvetica Neue', 'Segoe UI Light', sans-serif;
     text-align:center;
     } 
 #contact { 
-    background-image:url("hack.jpg");
+    background-image:url("hack2.PNG");
     background-attachment: fixed;
     border:solid black 3px;
     font-family: 'Helvetica Neue', 'Segoe UI Light', sans-serif;
@@ -37,7 +37,7 @@
     } 
 #logo {   
     border: 1px solid black;
-    border-radius: 50%;
+    border-radius: 70%;
    
 }
 #title {
