@@ -31,7 +31,6 @@
 #logo {   
     border: 1px solid black;
     border-radius: 75px;
-    float:left;
 }
 #title {
     text-align:center;
@@ -48,6 +47,7 @@
   text-decoration: underline white;
   font-size: 14px;
     padding:6px;
+    text-align:center;
  
 }
 
@@ -86,8 +86,8 @@
         -webkit-transition-timing-function: ease;
       }
       .zoom:hover {
-        transform: scale(1.05);
-        -webkit-transform: scale(1.05);
+        transform: scale(1.08);
+        -webkit-transform: scale(1.08);
       }
 .overlay {
   height: 100%;
