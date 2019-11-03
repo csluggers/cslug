@@ -1,29 +1,34 @@
 #index {
     background-image:url("term.PNG");
+    background-attachment: fixed;
     border:solid black 3px;
     font-family: 'Helvetica Neue', 'Segoe UI Light', sans-serif;
     text-align:center;
     } 
 #events { 
     background-image:url("term.PNG");
+    background-attachment: fixed;
     border:solid black 3px;
     font-family: 'Helvetica Neue', 'Segoe UI Light', sans-serif;
     text-align:center;
     }
 #news { 
    background-image:url("term.PNG");
+    background-attachment: fixed;
     border:solid black 3px;
     font-family: 'Helvetica Neue', 'Segoe UI Light', sans-serif;
     text-align:center;
     } 
 #opportunities{ 
    background-image:url("term.PNG");
+    background-attachment: fixed;
     border:solid black 3px;
     font-family: 'Helvetica Neue', 'Segoe UI Light', sans-serif;
     text-align:center;
     } 
 #contact { 
     background-image:url("term.PNG");
+    background-attachment: fixed;
     border:solid black 3px;
     font-family: 'Helvetica Neue', 'Segoe UI Light', sans-serif;
     text-align:center;
