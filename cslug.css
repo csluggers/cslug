@@ -40,6 +40,16 @@
 #title {
     text-align:center;
 }
+table, th, td {
+  border: 1px solid black;
+}
+table {
+  width: 100%;
+}
+
+th {
+  height: 50px;
+}
 /* Style the navigation menu */
 .topnav {
     overflow:hidden;
