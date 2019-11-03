@@ -45,11 +45,11 @@
 }
 table, th, td {
   border: 1px solid black;
-    text-align:center;
+    text-align:left;
     font-size:12px;
 }
 table {
-  width: 50%;
+  width: 40%;
 }
 
 th {
