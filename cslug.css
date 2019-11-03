@@ -5,25 +5,25 @@
     text-align:center;
     } 
 #events { 
-    background: linear-gradient(#c31432, #240b36);
+    background-image:url("term.PNG");
     border:solid black 3px;
     font-family: 'Helvetica Neue', 'Segoe UI Light', sans-serif;
     text-align:center;
     }
 #news { 
-    background: linear-gradient(#00F260, #0575E6);
+   background-image:url("term.PNG");
     border:solid black 3px;
     font-family: 'Helvetica Neue', 'Segoe UI Light', sans-serif;
     text-align:center;
     } 
 #opportunities{ 
-    background: linear-gradient(#0f0c29, #302b63, #24243e);
+   background-image:url("term.PNG");
     border:solid black 3px;
     font-family: 'Helvetica Neue', 'Segoe UI Light', sans-serif;
     text-align:center;
     } 
 #contact { 
-    background: linear-gradient(#ef8e38, #108dc7);
+    background-image:url("term.PNG");
     border:solid black 3px;
     font-family: 'Helvetica Neue', 'Segoe UI Light', sans-serif;
     text-align:center;
