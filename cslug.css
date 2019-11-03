@@ -1,30 +1,30 @@
 #index {
     background: linear-gradient(#355C7D, #6C5B7B, #C06C84);
-    border:dotted black 3px;
+    border:solid black 3px;
     font-family: 'Helvetica Neue', 'Segoe UI Light', sans-serif;
     text-align:center;
     } 
 #events { 
     background: linear-gradient(#c31432, #240b36);
-    border:dotted black 3px;
+    border:solid black 3px;
     font-family: 'Helvetica Neue', 'Segoe UI Light', sans-serif;
     text-align:center;
     }
 #news { 
     background: linear-gradient(#00F260, #0575E6);
-    border:dotted black 3px;
+    border:solid black 3px;
     font-family: 'Helvetica Neue', 'Segoe UI Light', sans-serif;
     text-align:center;
     } 
 #opportunities{ 
     background: linear-gradient(#0f0c29, #302b63, #24243e);
-    border:dotted black 3px;
+    border:solid black 3px;
     font-family: 'Helvetica Neue', 'Segoe UI Light', sans-serif;
     text-align:center;
     } 
 #contact { 
     background: linear-gradient(#ef8e38, #108dc7);
-    border:dotted black 3px;
+    border:solid black 3px;
     font-family: 'Helvetica Neue', 'Segoe UI Light', sans-serif;
     text-align:center;
     } 
@@ -65,7 +65,7 @@
     background-color: #aaa;
     font-family: 'Helvetica Neue', 'Segoe UI Light', sans-serif;
     color:black;
-    text-align:center;
+    text-align:left;
     margin-left:10px;
     margin-right:10px;
     margin: auto;
