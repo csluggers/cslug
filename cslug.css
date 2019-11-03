@@ -46,7 +46,7 @@
     } 
 #logo {   
     border: 1px solid black;
-    border-radius: 75px;
+    border-radius: 125px;
     z-index:1;
 }
 #title {
