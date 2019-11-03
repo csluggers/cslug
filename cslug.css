@@ -30,7 +30,7 @@
     } 
 #logo {   
     border: 1px solid black;
-    border-radius: 40px;
+    border-radius: 75px;
     float:left;
 }
 #title {
@@ -86,8 +86,8 @@
         -webkit-transition-timing-function: ease;
       }
       .zoom:hover {
-        transform: scale(1.1);
-        -webkit-transform: scale(1.1);
+        transform: scale(1.05);
+        -webkit-transform: scale(1.05);
       }
 .overlay {
   height: 100%;
