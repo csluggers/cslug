@@ -46,6 +46,7 @@
 table, th, td {
   border: 1px solid black;
     text-align:center;
+    font-size:12px;
 }
 table {
   width: 50%;
