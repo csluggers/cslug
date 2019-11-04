@@ -192,16 +192,19 @@ ul {
 }
 
 .dropdown {
+  float: left;
   overflow: hidden;
 }
 
 .dropdown .dropbtn {
- display:inline-block;
-  font-size: 16px;
+  font-size: 16px;  
+  border: none;
+  outline: none;
   color: white;
-  text-align: center;
   padding: 14px;
-  text-decoration: none;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
@@ -210,24 +213,20 @@ ul {
 
 .dropdown-content {
   display: none;
+  position: absolute;
   background-color:#4b6cb7;
   min-width: 120px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 2;
-      display:inline-block;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-    
 }
 
 .dropdown-content a {
-   display:inline-block;
-  font-size: 16px;
+  float: none;
   color: white;
-  text-align: center;
-  padding: 14px;
+  padding: 12px;
   text-decoration: none;
+  display: block;
+  text-align: left;
 }
 
 .dropdown-content a:hover {
@@ -236,5 +235,5 @@ ul {
 }
 
 .dropdown:hover .dropdown-content {
-  display: inline-block;
+  display: block;
 }
