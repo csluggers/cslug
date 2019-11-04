@@ -214,6 +214,11 @@ ul {
   min-width: 120px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 2;
+      display:inline-block;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+    
 }
 
 .dropdown-content a {
@@ -231,5 +236,5 @@ ul {
 }
 
 .dropdown:hover .dropdown-content {
-  display: block;
+  display: inline-block;
 }
