@@ -213,7 +213,7 @@ ul {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color:#5f2c82;
+  background-color:#4b6cb7;
   min-width: 120px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 2;
@@ -221,7 +221,7 @@ ul {
 
 .dropdown-content a {
   float: none;
-  color: black;
+  color: white;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
