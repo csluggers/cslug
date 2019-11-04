@@ -187,7 +187,7 @@ ul {
   font-size: 16px;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px;
   text-decoration: none;
 }
 
@@ -201,7 +201,7 @@ ul {
   border: none;
   outline: none;
   color: white;
-  padding: 14px 16px;
+  padding: 14px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
@@ -223,7 +223,7 @@ ul {
 .dropdown-content a {
   float: none;
   color: white;
-  padding: 12px 16px;
+  padding: 12px;
   text-decoration: none;
   display: block;
   text-align: left;
