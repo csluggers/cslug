@@ -192,7 +192,6 @@ ul {
 }
 
 .dropdown {
-  float: left;
   overflow: hidden;
 }
 
@@ -205,6 +204,7 @@ ul {
   background-color: inherit;
   font-family: inherit;
   margin: 0;
+    display: inline-block;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
