@@ -192,7 +192,6 @@ ul {
 }
 
 .dropdown {
-    
   overflow: hidden;
 }
 
@@ -213,7 +212,6 @@ ul {
 
 .dropdown-content {
   display: none;
-  position: absolute;
   background-color:#4b6cb7;
   min-width: 120px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -221,12 +219,11 @@ ul {
 }
 
 .dropdown-content a {
-  float: none;
   color: white;
   padding: 12px;
   text-decoration: none;
-  display: block;
   text-align: left;
+    display:inline-block;
 }
 
 .dropdown-content a:hover {
