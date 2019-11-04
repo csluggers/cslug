@@ -183,7 +183,7 @@ ul {
 }
 
 .navbar a {
-  float: left;
+  display:inline-block;
   font-size: 16px;
   color: white;
   text-align: center;
