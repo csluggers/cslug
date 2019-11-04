@@ -204,6 +204,8 @@ ul {
   background-color: inherit;
   font-family: inherit;
   margin: 0;
+  display:block;
+  
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
@@ -211,7 +213,7 @@ ul {
 }
 
 .dropdown-content {
-  display: inline-block;
+  display: none;
     position:absolute;
   background-color:#4b6cb7;
   max-width: 120px;
