@@ -183,7 +183,7 @@ ul {
 }
 
 .navbar a {
-  display:block;
+  display:inline-block;
   font-size: 16px;
   color: white;
   text-align: center;
@@ -192,6 +192,7 @@ ul {
 }
 
 .dropdown {
+  float: left;
   overflow: hidden;
 }
 
@@ -204,8 +205,6 @@ ul {
   background-color: inherit;
   font-family: inherit;
   margin: 0;
-  display:block;
-  
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
@@ -214,9 +213,9 @@ ul {
 
 .dropdown-content {
   display: none;
-    position:absolute;
+  position: absolute;
   background-color:#4b6cb7;
-  max-width: 120px;
+  min-width: 120px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 2;
 }
