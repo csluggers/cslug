@@ -191,13 +191,13 @@ ul {
   text-decoration: none;
 }
 
-.dropdown {
+/*.dropdown {
   margin-left:auto;
     margin-right:auto;
   overflow: hidden;
 }
-
-.dropdown .dropbtn {
+*/
+/*.dropdown */.dropbtn {
   font-size: 16px;  
   border: none;
   outline: none;
@@ -208,7 +208,7 @@ ul {
   margin: 0;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn {
+.navbar a:hover, /*.dropdown:hover*/ .navbar:hover .dropbtn {
   background-color: #182848;
 }
 
