@@ -184,49 +184,22 @@ ul {
 
 .navbar a {
   display:inline-block;
-  font-size: 16px;
+  font-size: 14px;
   color: white;
   text-align: center;
-  padding: 14px;
+  padding: 10px;
   text-decoration: none;
+  border:solid white 2px;
 }
-.navbar1  {
-  display:inline-block;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
 
-/*.dropdown {
-  margin-left:auto;
-    margin-right:auto;
-  overflow: hidden;
-}
-*/
-/*.dropdown */.dropbtn {
-  font-size: 16px;  
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
+
+
 
 .navbar a:hover, /*.dropdown:hover*/ .navbar:hover .dropbtn {
   background-color: #182848;
 }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color:#4b6cb7;
-  min-width: 120px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 2;
-}
+
 
 .dropdown-content a {
   float: none;
