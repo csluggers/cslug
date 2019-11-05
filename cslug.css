@@ -190,6 +190,13 @@ ul {
   padding: 14px;
   text-decoration: none;
 }
+.navbar1  {
+  display:inline-block;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
 
 /*.dropdown {
   margin-left:auto;
