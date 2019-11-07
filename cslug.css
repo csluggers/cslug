@@ -195,23 +195,17 @@ ul {
 
 
 
-.navbar a:hover, .navbar:hover{
-  background-color: #182848;
-}
-
 a {
-  float: none;
+
   color: white;
-  padding: 12px;
   text-decoration: none;
-  display: block;
+ 
   text-align: left;
 }
 
  a:hover {
-  background-color: #ddd;
+   background-color: #182848;
   color: black;
 }
-
 
 
