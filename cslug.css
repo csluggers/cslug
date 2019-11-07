@@ -58,6 +58,8 @@
     opacity: 0.97;
     position:relative;
     z-index:1;  
+            font-size:1em;
+            
 }
 }
     
@@ -119,8 +121,6 @@ ul {
     position:relative;
     z-index:1;
         font-size:1.5em;
-   
-    
 }
 
  .zoom {
