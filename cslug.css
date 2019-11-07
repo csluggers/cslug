@@ -186,6 +186,7 @@ ul {
   display:inline-block;
   font-size: 14px;
   color: white;
+    padding: 5px;
   text-align: center;
   text-decoration: none;
   border:solid white 2px;
