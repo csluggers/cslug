@@ -46,7 +46,7 @@
 }
 
     
-table, th, td {
+/*table, th, td {
   border: 1px solid black;
     text-align:left;
     font-size:12px;
@@ -73,7 +73,7 @@ table {
 th {
   height: 50px;
 }
-
+*/
 ul {
     padding:0;
     margin:0;
