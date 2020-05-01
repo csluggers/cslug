@@ -4,58 +4,20 @@
     border:solid black 3px;
     font-family: 'Helvetica Neue', 'Segoe UI Light', sans-serif;
     text-align:center;
-    } 
-#events { 
-    background-image:url("hack5.2.jpg");
-    background-attachment: fixed;
-    border:solid black 3px;
-    font-family: 'Helvetica Neue', 'Segoe UI Light', sans-serif;
-    text-align:center;
     }
-    
-    
-#news { 
-   background-image:url("hack5.2.jpg");
-    background-attachment: fixed;
-    border:solid black 3px;
-    font-family: 'Helvetica Neue', 'Segoe UI Light', sans-serif;
-    text-align:center;
-    } 
-#opportunities{ 
-   background-image:url("hack5.2.jpg");
-    background-attachment: fixed;
-    border:solid black 3px;
-    font-family: 'Helvetica Neue', 'Segoe UI Light', sans-serif;
-    text-align:center;
-    } 
-#contact { 
-    background-image:url("hack5.2.jpg");
-    background-attachment: fixed;
-    border:solid black 3px;
-    font-family: 'Helvetica Neue', 'Segoe UI Light', sans-serif;
-    text-align:center;
-    } 
 #logo {   
     border: 1px solid black;
     border-radius: 50%;
-    width:100px;
-   
+    width:100px;  
 }
 #title {
     text-align:center;
 }
+   
 
-    
-table, th, td {
-  border: 1px solid black;
-    text-align:left;
-    font-size:12px;
-    color:white;
-}
-table {
-  width: 50%;
-    height:30%;
-    background-image: linear-gradient(#16222A, #3A6073);
+td {
+  height: 50px;
+  vertical-align: bottom;
 }
 @media only screen and (max-width: 600px) {
      table {
@@ -68,157 +30,10 @@ table {
   
 }
 }
-    
-
 th {
-  height: 50px;
-}
-
-ul {
-    padding:0;
-    margin:0;
-}
-#eventsblock {
-    width:80%;
-    background-color: #aaa;
-    font-family: 'Helvetica Neue', 'Segoe UI Light', sans-serif;
-    color:black;
-    text-align:center;
-    margin-left:10px;
-    margin-right:10px;
-    margin: auto;
-    display:block;
-    opacity: 0.97;
-    position:relative;
-    z-index:1;
-    font-size:16px;
-}
- .zoom {
-        height: auto;
-    
-        transition-duration: 1s;
-        transition-timing-function: ease;
-        -webkit-transition-duration: 1s;
-        -webkit-transition-timing-function: ease;
-      }
-      .zoom:hover {
-        transform: scale(1.08);
-        -webkit-transform: scale(1.08);
-      }
-.overlay {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 100;
-  top: 0;
-  left: 0;
-  background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0, 1);
-  overflow-x: hidden;
-  transition: 0.5s;
-    opacity:1;
-}
-
-.overlay-content {
-  position: relative;
-  top: 25%;
-  width: 100%;
-  text-align: center;
-  margin-top: 30px;
-}
-
-.overlay a {
-  padding: 8px;
-  text-decoration: none;
-  font-size: 36px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
-
-.overlay a:hover, .overlay a:focus {
-  color: #f1f1f1;
-}
-
-.overlay .closebtn {
-  position: absolute;
-  top: 20px;
-  right: 45px;
-  font-size: 60px;
-}
-.overlay2 {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 100;
-  top: 0;
-  left: 0;
-  background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0, 1);
-  overflow-x: hidden;
-  transition: 0.5s;
-    opacity:1;
-}
-
-.overlay-content2 {
-  position: relative;
-  top: 25%;
-  width: 100%;
-  text-align: center;
-  margin-top: 30px;
-}
-
-.overlay2 a {
-  padding: 8px;
-  text-decoration: none;
-  font-size: 36px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
-
-.overlay2 a:hover, .overlay2 a:focus {
-  color: #f1f1f1;
-}
-
-.overlay2 .closebtn2 {
-  position: absolute;
-  top: 20px;
-  right: 45px;
-  font-size: 60px;
-}
-
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-}
-
-.navbar a {
-  display:inline-block;
-  font-size: 14px;
-  color: white;
-    padding: 2%;
-  text-align: center;
-  text-decoration: none;
-  border:solid white 2px;
-}
-
-
-
-
-a {
-
-  color: white;
-  text-decoration: none;
- 
   text-align: left;
+    height:75px;
 }
-
- a:hover {
-   background-color: #182848;
-  
-}
-
 p {
     style = "text-align:center;
 }
