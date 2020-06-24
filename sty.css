@@ -141,6 +141,14 @@
 		float:left;
 		object-fit:cover;
 				}
+	#logo {   
+    		border: 1px solid black;
+    		border-radius: 50%;
+   		 width:100px;  
+		}
+#title {
+    text-align:center;
+}
 	figcaption{
 		font-family:bolder;
 			}
