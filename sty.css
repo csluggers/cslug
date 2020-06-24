@@ -1,0 +1,178 @@
+@charset "utf-8";
+/* * {box-sizing:border-box;}*/
+*,*:after {box-sizing:inherit;}
+
+	html, body {
+		font-family:Times New Roman, arial, sans-serif;
+		background-image:url(rocks.JPG);
+		background-size:100% auto;
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+		box-sizing:border-box;
+			}	
+
+	p{
+		font-size:20px;
+		padding:20px;
+		text-align:center;
+		margin:auto;
+		display:block;
+		float;left;
+	}
+			
+	#wrapper{
+		width:80%;
+		margin:auto;
+		border:2px dotted white;
+		background-color:#ff4444;
+		}
+			
+	header {
+		border:2px solid white;
+		background-image:url(heaven.png);
+		background-repeat:no-repeat;
+		background-size:100%;
+		font-style:italic;
+		}
+			
+	h1 {
+		font-family:Times New Roman, arial, sans-serif;
+		font-size:75px;
+		color:maroon;
+		margin:0px;
+		padding:0px;
+		text-align:center;
+		font-style:italic;
+		}
+			
+	nav {
+		display:block;
+		text-align:center;
+		border:3px dotted white;
+		border-collapse:2px;
+		color:white;
+		background-color:lightgrey;
+		list-style-type:none;
+		margin:auto;
+		float:center;
+		}
+			
+	nav a {
+		font-family:Times New Roman, arial, sans-serif;
+		color: #black;
+		text-decoration: none;
+		font-size:20px;
+		text-align:center;
+		margin:auto;
+		width:100%;
+		border:1px solid white;
+			}
+			
+	h2{
+		font-family:Times New Roman, arial, sans-serif;
+		color:white;
+		font-size:30px;
+		font-style:italic;
+		}
+				
+	h3{
+		font-family:Times New Roman, arial sans-serif;
+		color:white;
+	}
+			
+	main {
+		display:block;
+		border:2px solid white;
+		background-color:#ff4444;
+		text-align:center;
+		float:left;
+		width:100%;
+		margin:auto;
+		}
+			
+	#dcj {
+		width:50%;
+		text-align:center;
+		float:right;
+		border:3px dotted white;
+		}
+				
+	#dcj_pic {
+		width:100%;
+		border:2px dotted black;
+			}
+	#sky {
+		width:100%;
+		display:block;
+		margin:auto;
+		text-align:center;
+		float:right;
+		border:3px dotted white;
+		}
+				
+	#sky_pic {
+		width:100%;
+		height:200px;
+		float:left;
+		margin:auto;
+		border:2px dotted black;
+			}
+			
+			
+	#masks{
+		width:50%;
+		text-align:center;
+		float:left;
+		border:3px dotted white;
+		}
+			
+	#masks_pic {
+		width:100%;
+		border:2px dotted black;
+			}
+
+	.animals_pic {
+		width:33.3%;
+		border:2px dotted black;
+		border-radius: 50%;
+		height:250px;
+		float:left;
+		object-fit:cover;
+				}
+	figcaption{
+		font-family:bolder;
+			}
+	footer figcaption {
+		display:block;
+		float:left;
+		width:100%;
+		margin:auto;
+		background-image: url(sky.jpg);
+		background-repeat: no-repeat;
+		border:2px solid black;
+		text-decoration:underline;
+		}
+		#trev
+		{
+			font-family:bolder;
+		}
+@media screen and (max-width:700px){
+	footer {
+	width: 100%;
+	}
+	}
+
+@media screen and (min-width:600px){
+	section { 
+		float:none;
+		width:90%;
+		margin:auto;
+	}
+	}
+			
+a:link {color:blue; font-style:italic;}
+a:visited {color:magenta; font-style:italic;}
+a:hover {color:green; font-style:italic;}
+a:active {color:orange; font-style:italic;}
