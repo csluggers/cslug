@@ -8,7 +8,7 @@
 	</head>
 	<body>
 	
-		
+			
 		<nav id="nav">
 				<ul>
 				<li><a href="index.html">Home</a></li>
@@ -35,28 +35,57 @@
 			</header>
 		
 		<main>
-		<h2>We offer a ride range of services, our classes are our speciality however we allow our clients to inform us of what they would like in a painting or graphic and bring a proposal to the table and we discuss pricing and other aspects such as timeframe. Please come in person to our brick and mortor location off of the I-10 and Van Buren, next to the Walgreens and Panda Express to see our work. We are famous for our online graphics.
-		<img id="abstract" src="abstract.jpg" alt="An abstract painting made from reds and blues.">
-		
-		</main>
-		
-		
-		<aside>
+				<form action="thanks.php" method="post" id="form" enctype="multipart/form-data">
+			<fieldset>
+				<legend><h2 id="formy">Enroll Here!</h2></legend>
+				<label for="fname">First Name:</label>
+				<input type="text" name="fname" id="fname" required>
+				<br />
+				<br />
+				
+				<label for="lname">Last Name:</label>
+				<input type="text" name="lname" id="lname" required>
+				<br />
+				<br />
+				<label for="phone">Enter your phone number:</label>
+
+<input type="tel" id="phone" name="phone"
+       pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+       required>
+	   <br />
+	   <br />
+				
+				<label for="email">Enter your email here:</label>
+				<input type="email" name="email" id="email" required>
+				<br />
+				
+				<label for="market">Would you like to receive marketing emails?</label>
+				<div class="container">
+				<input type="radio" name="market" id="market" value="yes">
+				Yes
+				<input type="radio" name="market" id="yes_no" value="no">No
+				</div>
+				<br />
+				<br />
+				
+				<label for="comments">Please place comments here:</label>
+				<div class="container">
+				<textarea name="comments" id="comments" rows="5" cols="45">
+				</textarea>
+				</div>
+				<br />
+				
+				<input type="submit" value="Submit">
+				<input type="reset" value="Reset">
+			</fieldset>
+		</form>
 		<article>
-		<p> Due to recent Covid-19 regulations, we are enforcing social distancing, and ever implement our classes on an online fashing by way of Cisco&reg; WebEx. Please wear a facemask if you decide to come check out our store. Thank you. -Trevor </p>
+		<p>
+		We will get in touch with you to discuss your schedule and how we can get you in some of our classes!</p>
+		
 		</article>
 		
-		</aside>
-		
-		<section>
-		<h2> <ol><li>Maintaining simplicity in terms of application</li> <li>Having complex ideas in terms of projects</li> <li>Trial and error in terms of gaining experice</li></ol>These are essential to every true artist, please give us a call and we would love to help with you art skills.</h2>
-		<video width="250" height="250" align="center" controls>
-		<source src="2ducks.mp4" type="video/mp4">
-		</video>
-		
-		<p>Being cheaper than a community college art program, and having competitive pricing, make us an incredible source for art education</p>
-		
-		</section>
+		</main>
 		
 	
 		<footer>
