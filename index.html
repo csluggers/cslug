@@ -10,7 +10,7 @@
 <body>
 	<div id="wrapper">
 		<header>
-		<img id="logo" src="../images/zredlogo.svg" height="150px" width="150px"/>
+		<img id="logo" src="zredlogo.svg" height="150px" width="150px"/>
 		<div id="scroll">
 		</div>
 		
