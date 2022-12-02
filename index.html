@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Login Page</title>
+<link rel = "stylesheet" href = "styles.css">
+</head>
+
+<body>
+	<header id="select">
+	<div class="choices active" id="choice1" onClick="loginfunc()">
+	 <span class="choicesText">
+	Login
+		</span>
+	</div>
+	<div class="choices" id="choice2" onClick="registerfunc()">
+	<span class="choicesText">
+	Register
+	</span>
+	</div>
+	</header>
+<main>
+
+	<article id="login" class="selections" style="display:none">
+	<form name="login" class="login">
+  	<input name="userid" type="text" id="myText" placeholder="Username">
+  	<input name="passid" type="password" id="myText1" placeholder="Password">
+  	<input type="button" id="myButton" value="Login" onClick="loginFunction()"/>
+	</form>
+	</article>
+	
+
+	<article id="register" class="selections" style="display:none">
+	<form class="reg">
+	<input type="email" placeholder="Email">
+  	<input type="password" placeholder="Password">
+	<input type="password" placeholder="Confirm Password">
+  	<input type="button" value="Register" />
+	</form>
+	</article>
+
+	
+
+</main>
+<script>
+var header = document.getElementById("select");
+var btns = header.getElementsByClassName("choices");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  });}
+const select = document.querySelector(".selections");
+const login = document.getElementById("login");
+const choice = document.getElementById("choice1");
+const choice2 = document.getElementById("choice2");
+function loginfunc() {
+	if (login.style.display == "none"){
+	register.style.display = "none";
+	login.style.display = "block";
+	}
+}
+function registerfunc() {
+	if (register.style.display == "none"){
+	login.style.display = "none";
+	register.style.display = "block";
+	}
+}
+
+function loginFunction () {
+var user1 = "admin";
+var pass1 = "admin";
+var username1 = document.getElementById("myText").value;
+var password1 = document.getElementById("myText1").value;
+if (username1 == user1 && password1 == pass1){
+			console.log("success!");
+			alert("Success!");
+			window.location.replace("home.html");
+			
+		}
+		else {
+			console.log("fail!");
+			alert("Try Again!");
+			
+		}
+} 
+	
+</script>
+</body>
+</html>

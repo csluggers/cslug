@@ -1,0 +1,149 @@
+<!doctype html>
+<html>
+<head>
+<title></title>
+<meta charset = "utf8">
+<meta name = "viewport" content = "width = device-width, initial-scale = 1" />
+<link rel = "stylesheet" href = "styles.css">
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<div class="greeting">
+				<h1>Crypto Calculator
+				</h1>
+				<h2>
+				</h2>
+			</div>
+		
+		</header>
+
+		<main>
+			<div id="expensePage">
+				<table id="expenseTable">
+					<tr><td>Investment:</td><td>Profit:</td><td>New Total:</td></tr>
+				</table>
+			</div>
+			<div id="expenseAdd">
+				<input name="current" type="number" id="current" placeholder="Current $">
+				<input name="investment" type="number" id="investment" placeholder="Investment">
+				<input name="future" type="number" id="future" placeholder="Future $">
+				<input name="margin" type="number" id="margin" placeholder="Margin">
+				<input id="buttonExpense" type="button" onclick="insRow('expenseTable')" value="Add"/>
+			</div>
+		</main>
+		<div class = "container">
+
+<div class="greeting">
+<h1>Tipout Calculator</<h1>
+<h2></h2>
+</div>
+	<div class = "shelf1">
+		<button id = "show"  role = "button" value ="submit" onclick = "display()"><span class = "text">Bar Calc.</span></button>
+		<div id= "hidden" style = "display:none;"> 
+		<input class = "inputStyle" id = "userInput3" type = "text" placeholder = "Enter Liquor Here">
+		<h2></h2>
+		<input class = "inputStyle" id = "userInput4" type = "text" placeholder = "Enter Beer Here">
+		<h2></h2>
+		<input class = "inputStyle" id = "userInput5" type = "text" placeholder = "Enter Wine Here">
+		<button id = "start2"  role = "button" value ="submit" onclick = "multiply2()"><span class = "text">Calc. Alc.</span></button>
+		</div>
+		<input class = "inputStyle" id = "userInput" type = "text" placeholder = "Enter Food Sales Here">
+		<h2></h2>
+		
+		<input class = "inputStyle" id = "userInput2" type = "text" placeholder = "Enter Bar Sales Here">
+		<button id = "start1" class = "button-64" role = "button" value ="submit" onclick = "multiply1()"><span class = "text">Tipout</span></button>
+		
+		<div id = "results" class = "results">
+	
+		</div>
+	</div>
+</div>
+		<footer>
+			<nav>
+				<ul>
+					<li><a href="home.html"><img src="home.png"></a></li>
+					<li><a href="income.html"><img src="home2.png"></a></li>
+					<li><a href="expense.html"><img src="expense.png"></a></li>
+					<li><a href="extras.html"><img src="favorites.png"></a></li>
+				</ul>
+			</nav>
+		</footer>
+	</div>
+<script>
+function insRow(id) {
+	var field = document.getElementById(id).insertRow(1);
+	var value1 = field.insertCell(0);
+	var value2 = field.insertCell(0);
+	var value3 = field.insertCell(0);
+	var currentPrice = document.getElementById("current").value;
+	var investment = parseInt(document.getElementById("investment").value); 
+	var futurePrice = document.getElementById("future").value;
+	var margin = parseInt(document.getElementById("margin").value);
+	var shares = investment / currentPrice;
+	var subTotal = shares * futurePrice;
+	var profit = parseInt(subTotal - investment);
+	var totalProfit = profit * margin;
+	var newTotal = parseInt(investment + totalProfit);
+	
+	value3.innerHTML = investment;
+	value2.innerHTML = totalProfit;
+	value1.innerHTML = newTotal;
+
+  const inputs = document.querySelectorAll('#current, #investment, #future, #margin');
+
+  inputs.forEach(input => {
+    input.value = '';
+  });
+
+}
+
+function multiply1() {
+	const a = 0.045;
+	const b = document.getElementById("userInput").value;
+	const c = 0.05;
+	const d = document.getElementById("userInput2").value;
+	const result = a * b;
+	const result2 = c * d;
+	document.getElementById("results").innerHTML = "<p id ='shelf1'>Food:</p>" + result  + "<p id ='shelf2'>Bar:</p>" + result2 + "<br><br>";
+	//alert("Tipout for food sales: " + result + " Tipout for bar sales: " + result2 );
+}
+function display() {
+    // get the clock
+    var liq = document.getElementById('hidden');
+
+    
+    var displaySetting = liq.style.display;
+
+    var displayButton = document.getElementById('show');
+
+    if (displaySetting == 'block') {
+      // clock is visible. hide it
+      liq.style.display = 'none';
+      // change button text
+      displayButton.innerHTML = "Bar Calc.";
+    }
+    else {
+      liq.style.display = 'block';
+      displayButton.innerHTML = 'Hide Calc.';
+    }
+}
+
+function multiply2() {
+	const m = 1.0;
+	const x = document.getElementById("userInput3").value;
+	const y = document.getElementById("userInput4").value;
+	const z = document.getElementById("userInput5").value;
+	const t = m * x;
+	const r = m * y;
+	const e = m * z;
+	const v = t + r + e;
+	document.getElementById("hidden").innerHTML = "<p id ='shelf1'>Liquor, Beer and Wine Total:</p>" + "<p style = 'font-size:30px'>$" + v + "</p>" + "<br><br>";
+	//alert("Tipout for food sales: " + result + " Tipout for bar sales: " + result2 );
+}
+
+	
+</script>
+</body>
+</html>
+
