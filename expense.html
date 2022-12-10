@@ -10,20 +10,20 @@
 	<div id="wrapper">
 		<header>
 			<div class="greeting">
-				<h1>Crypto Calculator
+				<h1>Widgets
 				</h1>
 				<h2>
 				</h2>
 			</div>
-		
 		</header>
 
 		<main>
+		<div class="container">
 			<div id="expensePage">
-				<table id="expenseTable">
-					<tr><td>Investment:</td><td>Profit:</td><td>New Total:</td></tr>
-				</table>
-			</div>
+			<div class="greeting">
+<h1>Crypto Calculator</<h1>
+<h2></h2>
+</div>
 			<div id="expenseAdd">
 				<input name="current" type="number" id="current" placeholder="Current $">
 				<input name="investment" type="number" id="investment" placeholder="Investment">
@@ -31,14 +31,19 @@
 				<input name="margin" type="number" id="margin" placeholder="Margin">
 				<input id="buttonExpense" type="button" onclick="insRow('expenseTable')" value="Add"/>
 			</div>
-		</main>
-		<div class = "container">
-
+			<table id="expenseTable">
+					<tr><td>Investment:</td><td>Profit:</td><td>New Total:</td></tr>
+				</table>
+			</div>
+			</div>
+			
+<div class = "container">
+<div class = "shelf1">
 <div class="greeting">
 <h1>Tipout Calculator</<h1>
 <h2></h2>
 </div>
-	<div class = "shelf1">
+	
 		<button id = "show"  role = "button" value ="submit" onclick = "display()"><span class = "text">Bar Calc.</span></button>
 		<div id= "hidden" style = "display:none;"> 
 		<input class = "inputStyle" id = "userInput3" type = "text" placeholder = "Enter Liquor Here">
@@ -59,9 +64,11 @@
 		</div>
 	</div>
 </div>
+		</main>
+
 		<footer>
 			<nav>
-				<ul>
+				<ul id="mainNav">
 					<li><a href="home.html"><img src="home.png"></a></li>
 					<li><a href="income.html"><img src="home2.png"></a></li>
 					<li><a href="expense.html"><img src="expense.png"></a></li>
