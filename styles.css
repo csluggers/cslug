@@ -13,6 +13,8 @@ body{
 main {
 margin-bottom:100px;
 background-color:rgba(120,119,130, 0.9);
+
+
 }
 
 
@@ -36,19 +38,7 @@ align-items:center;
 	
 }
 
-#scroll{
-		
-	background: url("hack6.JPG");
-	opacity: 0.65;
-	animation:slide 100s linear infinite;
-	width:4500px;
-	position:absolute;
-	left:0;
-	top:0;
-	height:100%;
-	width:300%;
 
-}
 #incomePage{
 	background-color:black;
         height:100%;
@@ -77,14 +67,13 @@ align-items:center;
 }
 #extrasPage{
 	background-color:black;
-        height: 500px;
+        height: 100%;
         overflow-x: hidden;
         overflow-y: auto;
-	
-        padding: 0px;
+
 	text-align:center;
-	width:100%;
-	padding:5%;
+	width:95%;
+	
 	
 }
 #balance{
@@ -92,16 +81,19 @@ align-items:center;
 	font-size:30px;
 	text-shadow:2px 2px black;
 	border:2px solid black;
+	display:block;
+	width:100%;
+	text-align:center;
 	
 	
 }
 
-header{
+#main1{
 	overflow:hidden;
 	position:relative;
 	display:flex;
 	opacity:1.0;
-	height:auto;
+	height:750px;
 	width:100%;
 	margin:0 auto;
 	background:url("hack6.JPG");
@@ -232,7 +224,25 @@ background-color:rgba(290,290,290,1);
 	
 
 }
+@keyframes slide {
+	0% {
+		transform: translate3d(0, 0, 0);
+	}
+	100% {
+		transform: translate3d(-1980px, 0, 0);
+	}
+	
+}
+#logo{
+	opacity:1.0;
+	float:left;
+	padding:0px;
+	margin:0px;
+	display:inline;
+	position:relative;
+	z-index:100;
 
+}
 #homeBalance {
 		font-size:1em;
 	padding:2px;
